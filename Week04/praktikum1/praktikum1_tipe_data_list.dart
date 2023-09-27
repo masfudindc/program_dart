@@ -24,16 +24,15 @@
 
 
 // void main(){
-// final list = [null, null, null, null, null, null];
-// assert(list.length == 6); 
-// print(list.length);
-// print(list[1]);
+// final finalList = List.filled(5, null);
 
-// list[1] = 'Nama: Masfudin Dwi Cahyo';
-// assert(list[1] == 'Nama: Masfudin Dwi Cahyo');
-// // assert(list[2] == "NIM: 2141720010");
+// finalList[1] = 'Nama: Masfudin Dwi Cahyo';
+// finalList[1] = 'NIM: 2141720010';
+// assert(finalList[1] == 'Nama: Masfudin Dwi Cahyo');
+// assert(finalList[2] == "NIM: 2141720010");
 
-// print(list[1]);
+// print(finalList[1]);
+// print(finalList[2]);
 // }
 
 
@@ -45,16 +44,16 @@
 
 
 void main(){
+final finalList = List<String?>.filled(6, null);      // 6 elemen = 5 index
 
-final list = [null, "Nama: Masfudin MDC", "NIM: 2141720010", null, null, null];
+finalList[1] = 'Nama: Masfudin Dwi Cahyo';
+finalList[2] = 'NIM: 2141720010';
+finalList[5] = 'index ke-5 = elemen ke-6 ';
+assert(finalList[1] == 'Nama: Masfudin Dwi Cahyo');
+assert(finalList[2] == "NIM: 2141720010");
 
-assert(list.length == 6); 
-print(list.length);   // cetak panjang elemen
-
-list[1] = "Nama: Masfudin Dwi Cahyo";
-assert(list[1] == "Nama: Masfudin Dwi Cahyo");
-assert(list[2] == "NIM: 2141720010");
-print(list[1]);   // cetak nilai indeks ke-1
-print(list[2]);
-print(list[3]);
+print(finalList[0]);
+print(finalList[1]);
+print(finalList[2]);
+print(finalList[5]);
 }
