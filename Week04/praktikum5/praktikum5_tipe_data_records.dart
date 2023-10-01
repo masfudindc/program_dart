@@ -36,6 +36,30 @@ void main(){
   // Langkah 4
   print("\nLangkah 4\n");
 
+  // (String, int) mahasiswa;
+  // print(mahasiswa);
+
+  // terjadi error karena variabel mahasiswa belum diinisialisasi nilainya
+  // variabel mahasiswa mempunyai 2 nilai (String dan int)
+
+  // Perbaikan
+  (String, int) mahasiswa;
+  mahasiswa = ("Masfudin Dwi Cahyo", 2141720010);   // inisialisasi nilai dengan nama dan NIM
+  print(mahasiswa);
+
   
+  // ------------------------------------------------------------------------------------
+  // Langkah 5
+  print("\nLangkah 5\n");
+
+  // var mahasiswa2 = ('first', a: 2, b: true, 'last');
+  var mahasiswa2 = ('Masfudin Dwi Cahyo', a: 2141720010, b: true, 'last');    // mengubah indeks 0 dengan nama dan indeks 1 dengan NIM
+
+  print(mahasiswa2.$1); // Prints 'Masfudin Dwi Cahyo'
+  print(mahasiswa2.a); // Prints 2141720010
+  print(mahasiswa2.b); // Prints true
+  print(mahasiswa2.$2); // Prints 'last'
+
+
 }
 
