@@ -6,7 +6,14 @@
 
 ### Tugas Praktikum
 
-1. Jelaskan yang dimaksud Functions dalam bahasa Dart!
+#### 1. Jelaskan yang dimaksud Functions dalam bahasa Dart!
+Jawab: 
+
+Function atau fungsi dalam bahasa Dart adalah kode program yang akan dijalankan saat dilakukan pemanggilan. Untuk membuat sebuah fungsi,
+kita menggunakan kata kunci void jika fungsi tersebut tidak mengembalikan nilai (void function), atau kita dapat
+menyebutkan tipe data yang akan dikembalikan jika fungsi mengembalikan nilai (return function), diikuti dengan nama
+fungsi, kurung () yang dapat berisi parameter, dan diakhiri dengan blok kode {}.
+
 
 2. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya! 
 
